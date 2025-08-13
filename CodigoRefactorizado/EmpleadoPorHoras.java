@@ -26,4 +26,3 @@ public class EmpleadoPorHoras extends Empleado {
         this.tarifaHora = tarifaHora;
     }
 } 
-
