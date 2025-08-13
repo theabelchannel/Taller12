@@ -76,8 +76,7 @@ public class Empleado {
     public Departamento getDepartamento() {
         return departamento;
     }
-
-
+    
     public void imprimirDetalles() {
         System.out.println("Nombre: " + getNombre());
         System.out.println("Genero: " + getGenero());
