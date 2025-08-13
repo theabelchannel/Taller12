@@ -13,9 +13,10 @@ public class EmpleadoPorHoras extends Empleado {
     }
 
     @Override
-    public double calcularSalario() {
+      public double calcularSalario() {
         return getHorasTrabajadas() * getTarifaHora();
-    } 
+    }
+ 
     // Más metodos
     public double getTarifaHora() {
         return tarifaHora;
@@ -25,3 +26,4 @@ public class EmpleadoPorHoras extends Empleado {
         this.tarifaHora = tarifaHora;
     }
 } 
+
